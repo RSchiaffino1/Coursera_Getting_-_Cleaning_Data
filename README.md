@@ -1,5 +1,5 @@
 # Getting and Cleaning Data (course project)
-Course project for "Getting and cleaning data" course - Data Science Specialization
+Course project for "Getting and cleaning data" - Data Science Specialization
 
 Instructions:
 
