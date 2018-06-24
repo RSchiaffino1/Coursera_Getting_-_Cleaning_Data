@@ -43,4 +43,4 @@ data <- cbind(allx, ally, allsubject)
 melted_data <- melt(data, id = c("Subject", "Activity"))
 datameans <- dcast(melted_data, Subject + Activity ~ variable, mean)
 
-write.table(datameans, "tidy_data2.txt", row.names = F)
+write.table(datameans, "tidy_data.txt", row.names = F)
