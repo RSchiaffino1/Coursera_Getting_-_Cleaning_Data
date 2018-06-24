@@ -1,12 +1,12 @@
-#Introduction
+**Introduction
 This CodeBook describes the variables, the data, and the transformations performed to convert the raw data into tidy data.
 
-#Raw data
+-Raw data
 The raw data was taken from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip , which contains data collected from the accelerometers from the Samsung Galaxy S smartphone.
 'subject' variable represents the ID of the test subject.
 'activity' variable represents the type of activity performed when the corresponding measurements were taken.
 
-#R Script
+--R Script
 Script run_analysis.R performs the 5 steps described in the course project's instructions:
   1. Merges the training and the test sets to create one data set, by using the rbind() function.
   2. Extracts only the measurements on the mean and standard deviation for each measurement.
